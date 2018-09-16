@@ -15,12 +15,12 @@ const   newDriver  = { ...object2 };
 updateDriverWithKeyAndValue(driver, 'ragtime', "The Sting");
 
 
-// function  destructivelyUpdateDriverWithKeyAndValue(driver, key, value) {
-//   driver[key] = value;
-//   return driver ;
+function  destructivelyUpdateDriverWithKeyAndValue(driver, key, value) {
+  driver[key] = value;
+  return driver ;
   
-// }
-// destructivelyUpdateDriverWithKeyAndValue;
+}
+destructivelyUpdateDriverWithKeyAndValue;
 
 // function  deleteFromDriverByKey(object2, key) {
 //   const newDriver =  {...object2 };
