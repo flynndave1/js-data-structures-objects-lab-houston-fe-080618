@@ -22,12 +22,12 @@ updateDriverWithKeyAndValue(driver, 'ragtime', "The Sting");
 // }
 //   deleteFromDriverByKey(driver, 'mean');
 
-// function  destructivelyUpdateDriverWithKeyAndValue(driver, key, value) {
-//   driver[key] = value;
-//   return driver ;
+function  destructivelyUpdateDriverWithKeyAndValue(driver, key, value) {
+  driver[key] = value;
+  return driver ;
   
-// }
-// destructivelyUpdateDriverWithKeyAndValue;
+}
+destructivelyUpdateDriverWithKeyAndValue;
 
 // destructivelyDeleteFromDriverByKey(driver, key) {
 //   delete driver.key;
