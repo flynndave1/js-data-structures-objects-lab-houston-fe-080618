@@ -7,12 +7,12 @@ const driver = {
   financial: "The Directors"
 };
 
-// function updateDriverWithKeyAndValue(object2, key, value) {
-// const   newDriver  = { ...object2 };
-//   newDriver[key] = value ;
-//   return newDriver;
-// }
-// updateDriverWithKeyAndValue(driver, 'ragtime', "The Sting");
+function updateDriverWithKeyAndValue(object2, key, value) {
+const   newDriver  = { ...object2 };
+  newDriver[key] = value ;
+  return newDriver;
+}
+updateDriverWithKeyAndValue(driver, 'ragtime', "The Sting");
 
 
 // function  destructivelyUpdateDriverWithKeyAndValue(driver, key, value) {
