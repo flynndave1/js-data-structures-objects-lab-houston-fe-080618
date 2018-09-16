@@ -7,30 +7,30 @@ const driver = {
   financial: "The Directors"
 };
 
-function updateDriverWithKeyAndValue(object2, key, value) {
- const   newDriver  = { ...object2 };
-   newDriver[key] = value ;
-  return newDriver;
-}
-updateDriverWithKeyAndValue(driver, 'ragtime', "The Sting");
+// function updateDriverWithKeyAndValue(object2, key, value) {
+// const   newDriver  = { ...object2 };
+//   newDriver[key] = value ;
+//   return newDriver;
+// }
+// updateDriverWithKeyAndValue(driver, 'ragtime', "The Sting");
 
 
-function  destructivelyUpdateDriverWithKeyAndValue(driver, key, value) {
-  driver[key] = value;
-  return driver ;
+// function  destructivelyUpdateDriverWithKeyAndValue(driver, key, value) {
+//   driver[key] = value;
+//   return driver ;
   
-}
-destructivelyUpdateDriverWithKeyAndValue;
+// }
+// destructivelyUpdateDriverWithKeyAndValue;
 
-function  deleteFromDriverByKey(object2, key) {
-  const newDriver =  {...object2 };
-  delete  newDriver[key];
-  return  newDriver;
-}
-  deleteFromDriverByKey(driver, 'mean');
+// function  deleteFromDriverByKey(object2, key) {
+//   const newDriver =  {...object2 };
+//   delete  newDriver[key];
+//   return  newDriver;
+// }
+//   deleteFromDriverByKey(driver, 'mean');
 
-destructivelyDeleteFromDriverByKey(driver, key) {
-  delete driver.key;
-  return driver;
-}
-destructivelyDeleteFromDriverByKey(driver, 'sad');
+// destructivelyDeleteFromDriverByKey(driver, key) {
+//   delete driver.key;
+//   return driver;
+// }
+// destructivelyDeleteFromDriverByKey(driver, 'sad');
