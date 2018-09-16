@@ -15,19 +15,19 @@ const   newDriver  = { ...object2 };
 updateDriverWithKeyAndValue(driver, 'ragtime', "The Sting");
 
 
-function  destructivelyUpdateDriverWithKeyAndValue(driver, key, value) {
-  driver[key] = value;
-  return driver ;
-  
-}
-destructivelyUpdateDriverWithKeyAndValue;
-
 // function  deleteFromDriverByKey(object2, key) {
 //   const newDriver =  {...object2 };
 //   delete  newDriver[key];
 //   return  newDriver;
 // }
 //   deleteFromDriverByKey(driver, 'mean');
+
+// function  destructivelyUpdateDriverWithKeyAndValue(driver, key, value) {
+//   driver[key] = value;
+//   return driver ;
+  
+// }
+// destructivelyUpdateDriverWithKeyAndValue;
 
 // destructivelyDeleteFromDriverByKey(driver, key) {
 //   delete driver.key;
