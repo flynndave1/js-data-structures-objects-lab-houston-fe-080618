@@ -29,7 +29,7 @@ function  destructivelyUpdateDriverWithKeyAndValue(driver, key, value) {
 }
 destructivelyUpdateDriverWithKeyAndValue;
 
-destructivelyDeleteFromDriverByKey(driver, key) {
+function destructivelyDeleteFromDriverByKey(driver, key) {
   return delete driver[key];
 //   return driver;
 }
